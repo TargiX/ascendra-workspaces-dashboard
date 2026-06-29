@@ -588,7 +588,7 @@ export function AdminFleetPage() {
         </CockpitMetric>
 
         <CockpitMetric
-          label="Cost and savings"
+          label="Infrastructure cost"
           value={`${formatCurrency(fleet.totalHourlyCost)}/hr`}
           helper={`${formatCurrency(fleet.projectedMonthlyCost)} projected month`}
         >

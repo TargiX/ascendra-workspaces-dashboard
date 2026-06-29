@@ -54,6 +54,10 @@ pnpm preview
 
 [Ascendra Workspaces Dashboard](https://ascendra-workspaces-dashboard-sand.vercel.app)
 
+## Design artifact
+
+[Low-fidelity mockups](https://www.figma.com/make/ePVCIyUdmNmusp6FbslVFp/Create-Low-Fidelity-Mockups?fullscreen=1&t=OtyDUi9OfOc5MXcX-1&code-node-id=0-9)
+
 ## Product interpretation
 
 The brief describes one product surface serving two different user groups, but their jobs are very different.
