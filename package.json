@@ -1,0 +1,47 @@
+{
+  "name": "ascendra-workspaces-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.7.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint:types": "tsc --noEmit",
+    "msw:init": "msw init public/ --save",
+    "postinstall": "msw init public/ --save || true"
+  },
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^13.13.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-router": "^1.139.7",
+    "@tanstack/react-table": "^8.21.3",
+    "@untitledui/icons": "^0.0.22",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.42.0",
+    "msw": "^2.12.4",
+    "react": "^19.2.0",
+    "react-aria-components": "^1.19.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.3.0",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.14"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
