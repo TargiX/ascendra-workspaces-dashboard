@@ -50,6 +50,10 @@ pnpm build
 pnpm preview
 ```
 
+## Live demo
+
+[Ascendra Workspaces Dashboard](https://ascendra-workspaces-dashboard-sand.vercel.app)
+
 ## Product interpretation
 
 The brief describes one product surface serving two different user groups, but their jobs are very different.
