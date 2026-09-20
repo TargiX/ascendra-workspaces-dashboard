@@ -24,6 +24,7 @@
     "date-fns": "^4.1.0",
     "framer-motion": "^12.42.0",
     "msw": "^2.12.4",
+    "posthog-js": "^1.434.2",
     "react": "^19.2.0",
     "react-aria-components": "^1.19.0",
     "react-dom": "^19.2.0",
